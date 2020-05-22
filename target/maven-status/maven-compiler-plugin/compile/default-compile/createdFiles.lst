@@ -1,0 +1,5 @@
+com\mycompany\shop\dto\Producto.class
+com\mycompany\shop\Controller\daoimpl\DAOProductoImpl.class
+com\mycompany\shop\Controller\NuevoProducto.class
+com\mycompany\shop\dao\DAOProducto.class
+com\mycompany\shop\conexion\ConexionPostgres.class

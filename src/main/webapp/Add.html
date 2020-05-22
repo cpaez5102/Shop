@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adicionar Producto</title>
+    
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+   
+        
+    <div class="site-branding-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                </div>
+             </div>
+        </div>
+    </div> <!-- End site branding area -->
+    
+    <div class="mainmenu-area">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div> 
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                       
+                        <li class="active"><a href="shop.html">Productos</a></li>
+                        <li class="active"><a href="Add.html">Agregar Producto</a></li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </div> <!-- End mainmenu area -->
+    
+    <div class="product-big-title-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="product-bit-title text-center">
+                        <h2>Productos</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="product-content-right">
+                        <div class="woocommerce">                           
+                                <form enctype="multipart/form-data" action="NuevoProducto" class="checkout" method="post" name="checkout">
+
+                                    <div id="customer_details" class="col2-set">
+                                        <div class="col-1">
+                                            <div class="woocommerce-billing-fields">
+                                                <h3>Detalles Producto</h3>
+   
+                                                <p class="form-row form-row-first validate-required">
+                                                    <label>Nombre Producto <abbr title="required" class="required">*</abbr>
+                                                    </label>
+                                                    <input type="text" value="" id="billing_first_name" name="name_product" class="input-text ">
+                                                </p>                                             
+                                                <div class="clear"></div>
+                                                <p class="form-row form-row-last address-field validate-required validate-postcode" data-o_class="form-row form-row-last address-field validate-required validate-postcode">
+                                                    <label>Cantidad Disponible <abbr title="required" class="required">*</abbr>
+                                                    </label>
+                                                    <input type="text" value="" id="billing_postcode" name="quantity_product" class="input-text ">
+                                                </p>
+    
+                                                <div class="clear"></div>
+    
+                                                <p  class="form-row form-row-first validate-required validate-email">
+                                                    <label>Precio <abbr title="required" class="required">*</abbr>
+                                                    </label>
+                                                    <input type="text" value=""  id="billing_email" name="price_product" class="input-text ">
+                                                </p>
+    
+                                                <p  class="form-row form-row-last validate-required validate-phone">
+                                                    <label >Imagen <abbr title="required" class="required">*</abbr>
+                                                    </label>
+                                                    <input type="file" name="file" class="input-text" size="60">
+                                                </p>
+                                                
+                                                <button type="submit" value="Upload">Guardar</button>
+
+                                                <div class="clear"></div>   
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </form>
+                            <div class="cart-collaterals">
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+   
+    <!-- Latest jQuery form server -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    
+    <!-- Bootstrap JS form CDN -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
+    <!-- jQuery sticky menu -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    
+    <!-- jQuery easing -->
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    
+    <!-- Main Script -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
